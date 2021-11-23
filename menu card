@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+char ch1;
+cout<<"please select the food item\nB= Burger\nF= French Fries\n P= Pizza\nS= Sandwiches \nA= Pasta\n";
+cin>>ch1;
+switch (ch1)
+{
+case 'B':
+cout<<" Burger 1 Rs. 129 ";
+case 'f':
+cout<<" French Fries 1 Rs. 99 ";
+break;
+case 'P':
+cout<<"Pizza 1 Rs. 239 ";
+break;
+case 'S':
+cout<<"Sandwiches 1 Rs. 149";
+break;
+case'A':
+cout<<"Pasta 1 Rs,179";
+break;
+}
+}
